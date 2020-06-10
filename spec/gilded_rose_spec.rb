@@ -1,4 +1,3 @@
-require 'rspec/given'
 require 'gilded_rose'
 
 shared_examples 'decrements sell_in' do |n|
@@ -23,8 +22,8 @@ describe "#update_quality" do
   context "with a single" do
     let(:item) { Item.new(name, initial_sell_in, initial_quality) }
 
-    Given(:initial_sell_in) { 5 }
-    Given(:initial_quality) { 10 }
+    let(:initial_sell_in) { 5 }
+    let(:initial_quality) { 10 }
 
     context "normal item" do
       let(:name) { "NORMAL ITEM" }
@@ -204,7 +203,7 @@ describe "#update_quality" do
         it_behaves_like 'decrements quality', 2
 
         context "at zero quality" do
-          Given(:initial_quality) { 0 }
+          let(:initial_quality) { 0 }
 
           it_behaves_like 'decrements quality', 0
         end
