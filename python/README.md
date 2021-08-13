@@ -1,6 +1,6 @@
 # The Gilded Rose Code Kata
 
-This is a Ruby version of the Gilded Rose Kata, found
+This is a Python version of the Gilded Rose Kata, found
 [here](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
 
 # Original Description of the Gilded Rose
@@ -29,3 +29,4 @@ We have recently signed a supplier of conjured items. This requires an update to
 Feel free to make any changes to the `update_quality` method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the `update_quality` method and Items property static if you like, we'll cover for you).
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
+
