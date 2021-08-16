@@ -2,13 +2,10 @@ from gilded_rose import *
 
 import unittest
 
-
 class GildedRoseTest(unittest.TestCase):
 
     def setUp(self):
-        self.items = []
-
-      # longMessage = True  
+        self.items = [] 
 
     def test_update_quality_with_a_single_normal_item(self):
         self.items.append(Item("NORMAL ITEM", 5, 10))
