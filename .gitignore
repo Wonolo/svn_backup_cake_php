@@ -1,2 +1,13 @@
+
+.DS_Store
+
+# ruby
 coverage
 Gemfile.lock
+
+# python
+.idea
+__pycache__
+.coverage
+cover
+*.pyc
