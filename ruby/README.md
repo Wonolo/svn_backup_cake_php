@@ -1,6 +1,6 @@
 # The Gilded Rose Code Kata
 
-This is a Python version of the Gilded Rose Kata, found
+This is a Ruby version of the Gilded Rose Kata, found
 [here](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
 
 # Original Description of the Gilded Rose
